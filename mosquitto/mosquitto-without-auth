@@ -1,0 +1,11 @@
+listener 1883 0.0.0.0
+allow_anonymous true
+persistence true
+persistence_location /mosquitto/data/
+log_dest file /mosquitto/log/mosquitto.log
+max_queued_bytes 0
+max_queued_messages 0
+memory_limit 0
+max_inflight_bytes 0
+max_inflight_messages 0
+max_connections -1
